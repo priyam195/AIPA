@@ -6,10 +6,10 @@ AIPA will learn from the vast amount of documents stored in various team workspa
 
 
 ## General idea of this project:
-*Uploading docs, pdf and wikis as training data in a Database Interface.
-*Divide your long text into small chunks that are consumable by GPT.
-*Store each chunk in the vector database. Each chunk is indexed by a chunk embedding vector.
-*When asking a question to GPT, convert the question to a question embedding vector first.
-*Use question embedding vector to search chunks from vector database.
-*Combine chunks and questions as a prompt, feed it to GPT.
-*Get the response from GPT with the source documents links.
+* Uploading docs, pdf and wikis as training data in a Database Interface.
+* Divide your long text into small chunks that are consumable by GPT.
+* Store each chunk in the vector database. Each chunk is indexed by a chunk embedding vector.
+* When asking a question to GPT, convert the question to a question embedding vector first.
+* Use question embedding vector to search chunks from vector database.
+* Combine chunks and questions as a prompt, feed it to GPT.
+* Get the response from GPT with the source documents links.
