@@ -11,11 +11,12 @@ from llama_index import (
 )
 import logging
 import sys
+import os
 
 openai.api_type = "azure"
 openai.api_base = "https://aipaopenairesource.openai.azure.com"
 openai.api_version = "2022-12-01"
-openai.api_key = "025716b1b48e430e9dc84f85e9fb552a"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 llm = AzureOpenAI(deployment_name="AIPA", model_kwargs={
